@@ -8,13 +8,13 @@ public class HW27 {
         String str = scan.nextLine();
         String nStr = "";
         for (int i = 0; i < str.length(); i++) {
-            if (!(str.charAt(i) == str.charAt(i+1))) {
-                nStr =  nStr+str.charAt(i) ;
-            } else {continue;
-                }
-
+            String check = ""+str.charAt(i);
+            if (nStr.contains(check)){
+                continue;
+            }nStr=nStr+str.charAt(i);
 
             }
         System.out.println(nStr);
         }
     }
+
