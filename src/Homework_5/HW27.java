@@ -1,3 +1,5 @@
+package Homework_5;
+
 import java.util.Scanner;
 
 public class HW27 {
