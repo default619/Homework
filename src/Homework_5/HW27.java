@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class HW27 {
     public static void main(String[] args) {
+        /*
+        Write a code which asks user to enter a String and removes all the duplicate characters from the String and prints the result
+        ex. "AAAAAVVVCCDDAA" ==> "AVCD"
+         */
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a sentence: ");
