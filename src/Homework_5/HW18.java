@@ -2,7 +2,7 @@ package Homework_5;
 
 import java.util.Scanner;
 
-import static Homework_5.FactorialMethod.Factorial;
+import static Methods.FactorialMethod.Factorial;
 
 public class HW18 {
 
