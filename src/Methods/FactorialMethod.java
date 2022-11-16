@@ -1,4 +1,4 @@
-package Homework_5;
+package Methods;
 
 public class FactorialMethod {
     public static int Factorial(int num) {
