@@ -4,13 +4,12 @@ import java.util.ArrayList;
 
 public class MaxTwo {
     ///This method takes an ArrayList of numbers and returns the max 2 values as an ArrayList.
+
     public static ArrayList<Integer> MaxTwo (ArrayList<Integer> list){
         ArrayList<Integer> MaxTwo = new ArrayList<>();
 
-        int max1= list.get(0);
-
-        int max2 = list.get(0);
-
+        int max1= Integer.MIN_VALUE;
+        int max2 = Integer.MIN_VALUE;
 
         for (int i = 0; i < list.size(); i++) {
 
