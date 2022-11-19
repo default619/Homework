@@ -1,9 +1,11 @@
 package Methods;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ScanMultipleNumbersMethod {
+
     public static ArrayList<Integer> ScanMultipleNumbers() {
         ArrayList<Integer> nums = new ArrayList();
         Scanner scan = new Scanner(System.in);
