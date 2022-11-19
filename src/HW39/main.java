@@ -1,4 +1,4 @@
-package HW39.main;
+package HW39;
 
 import HW39.methods.PrintFullName;
 
