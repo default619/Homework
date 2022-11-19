@@ -1,5 +1,9 @@
 package Homework_7;
 
+import Methods.ScanMultipleNumbersMethod;
+
+import java.util.Scanner;
+
 public class HW37 {
 
     //write a method where it takes 2 double values and 1 integer value.  When the integer value is 1 it
@@ -9,7 +13,7 @@ public class HW37 {
 
 
 
-    public static double test1(double a, double b, int c){
+    public static double SimpleCalculator(double a, double b, int c){
         double result = 0;
         switch (c){
             case 1:
@@ -28,9 +32,13 @@ public class HW37 {
         return result;
     }
     public static void main(String[] args) {
-        System.out.println(test1(5,6,1));
-        System.out.println(test1(5,6,2));
-        System.out.println(test1(5,6,3));
-        System.out.println(test1(5,6,4));
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter 2 numbers: ");
+        double a = scan.nextDouble();
+        double b = scan.nextDouble();
+        System.out.println("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: ");
+        int c = scan.nextInt();
+        System.out.println("The result is: "+SimpleCalculator(a,b,c));
+
     }
 }
