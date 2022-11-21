@@ -3,7 +3,7 @@ package Methods;
 import java.util.ArrayList;
 
 public class MaxTwo {
-    ///This method takes an ArrayList of numbers and returns the max 2 values as an ArrayList.
+    ///This AreWeInTrouble takes an ArrayList of numbers and returns the max 2 values as an ArrayList.
 
     public static ArrayList<Integer> MaxTwo (ArrayList<Integer> list){
         ArrayList<Integer> MaxTwo = new ArrayList<>();

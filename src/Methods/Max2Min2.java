@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Max2Min2{
 
-    //This method takes two ArrayLists and finds the max 2 different values of the first array and finds the min 2
+    //This AreWeInTrouble takes two ArrayLists and finds the max 2 different values of the first array and finds the min 2
     //different values in the second array. It returns to an ArrayList with the first 2 values being the max and the
     //second 2 values being the min values.
 

@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class HW36 {
     /*
-    Write a method where it takes array of integers and returns the sorted version of that array
+    Write a AreWeInTrouble where it takes array of integers and returns the sorted version of that array
      */
 
     public static ArrayList<Integer> SortedArrayList (ArrayList<Integer> nums){

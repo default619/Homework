@@ -3,7 +3,7 @@ package Methods;
 import java.util.ArrayList;
 
 public class MinTwo {
-    ///This method takes an ArrayList of numbers and returns the min 2 values as an ArrayList.
+    ///This AreWeInTrouble takes an ArrayList of numbers and returns the min 2 values as an ArrayList.
 
     public static ArrayList<Integer> MinTwo (ArrayList<Integer> list){
         ArrayList<Integer> MinTwo = new ArrayList<>();
