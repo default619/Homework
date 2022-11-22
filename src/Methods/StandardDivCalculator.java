@@ -1,5 +1,7 @@
 package Methods;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class StandardDivCalculator {
@@ -9,18 +11,18 @@ public class StandardDivCalculator {
     //mean = sum of all elements / n
 
 
-    public static int StandardDeviation(ArrayList<Integer> list){
+    public static double StandardDeviation(ArrayList<Integer> list){
         int sum = 0;
         for (int i = 0; i < list.size(); i++) {
             sum += list.get(i);
         }
-        int average = sum / list.size();
-        int sumOfSquares = 0;
+        double average = sum / list.size();
+        double sumOfSquares = 0;
         for (int i = 0; i < list.size(); i++) {
             sumOfSquares += Math.pow(list.get(i) - average, 2);
         }
-        int variance = sumOfSquares / list.size();
-        int standardDeviation = (int) Math.sqrt(variance);
+        double variance = sumOfSquares / list.size();
+        double standardDeviation = (double) Math.sqrt(variance);
         return standardDeviation;
     }
 
