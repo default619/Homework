@@ -1,6 +1,7 @@
 package Homework_7;
 
 import Methods.PrintBoarderLine;
+import Methods.RandomArray;
 import Methods.ScanMultipleNumbersMethod;
 
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ public class HW36 {
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> nums = ScanMultipleNumbersMethod.ScanMultipleNumbers();
+        ArrayList<Integer> nums = RandomArray.randomArray(10);
         System.out.println("The original list: "+nums);
         ArrayList<Integer> SortedList = SortedArrayList(nums);
         PrintBoarderLine.PrintLine(40);

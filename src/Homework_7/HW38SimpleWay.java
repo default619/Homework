@@ -34,9 +34,5 @@ public class HW38SimpleWay {
         PrintBoarderLine.PrintLine(30);
         System.out.println("The first (2) numbers are the max and the second (2) numbers are the min: "+Arrays.toString(result));
 
-
-
-
-
     }
 }
