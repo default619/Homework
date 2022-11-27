@@ -12,8 +12,6 @@ public class TwoSum {
                 return new int[]{i,complementIndex};
             }
             complements.put(target - nums[i],i);
-
-
         }
         return null;
     }
